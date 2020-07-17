@@ -12,7 +12,7 @@ r= sr.Recognizer()
 engine = pyttsx3.init(driverName='sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
-boss = "Bazyli"
+boss = "YourName"
 def speak(text):
     engine.say(text)
     engine.runAndWait()
